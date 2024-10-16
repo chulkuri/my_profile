@@ -1,0 +1,44 @@
+.bg-container1 {
+    background-image: url("https://wallpaperaccess.com/full/5651990.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+ }
+ .profile {
+    padding: 30px;
+    text-align: center;
+ }
+ 
+ .image {
+    width: 200px;
+    margin: 10px;
+    border-radius: 100px;
+ }
+ .heading1{
+    padding: 10px;
+    text-align: center;
+ }
+.button{
+   border-radius: 10px;
+   height: 30px;
+   font-style: italic;
+   background-color: aqua;
+}
+ .bg-container{
+    background-image: url("https://img.freepik.com/free-photo/high-angle-view-various-stationeries-yellow-backdrop_23-2147880460.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.heading{
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    height: 20px;
+    padding: 30px;
+}
+.paragraph{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+}

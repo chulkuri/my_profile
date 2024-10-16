@@ -1,0 +1,17 @@
+.bg-container{
+    background-image: url("https://img.freepik.com/free-photo/high-angle-view-various-stationeries-yellow-backdrop_23-2147880460.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.heading{
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    height: 20px;
+    padding: 30px;
+}
+.paragraph{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+}
