@@ -26,12 +26,15 @@ jobs:
           name: Build Docker Image
           command: |
             echo "Building Docker image..."
-            docker build -t $DOCKER_USERNAME/my-frontend-website:latest .
+            docker build -t $DOCKER_USERNAME/my-profile:latest .
+      - run:
+          name: Push Docker Image to Docker Hub
+          command: |
             echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
-            docker push $DOCKER_USERNAME/my-frontend-website:latest
+            docker push $DOCKER_USERNAME/my-profile:latest
 
 workflows:
-  build_test:
+  build_and_deploy:
     jobs:
       - build_test
       - build_docker_image
